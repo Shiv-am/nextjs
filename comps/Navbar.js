@@ -1,7 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 const Navbar = () => {
     return ( 
+        <>
+        <Head>
+            <title>Home</title>
+        </Head>
         <nav>
             <div className="logo">
                 
@@ -13,6 +18,7 @@ const Navbar = () => {
            <br />
            <Link href="/ninjas">Ninjas listening</Link>
         </nav>
+        </>
      );
 }
  
