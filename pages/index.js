@@ -11,6 +11,9 @@ export default function Home() {
       <Link href="/ninjas/">
         <a className={styles.btn}>See Ninja Listing</a>
       </Link>
+      <Link href="*">
+        <h2>404 pageeee</h2>
+      </Link>
     </div>
   )
 }
